@@ -1,0 +1,26 @@
+* {
+    margin: 0%;
+}
+
+.header {
+
+}
+
+.header__content {
+    background-image: url(img/header_background.jpg);
+    background-size: cover;
+    height: 1200px;
+
+}
+
+.header__navbar {
+
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: right;
+    justify-content: right; 
+}
