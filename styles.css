@@ -6,9 +6,7 @@
     font-family: 'Cormorant', serif;
 }
 
-.header {
-
-}
+.header {}
 
 .header__content {
     background-image: url(img/header_background.jpg);
@@ -19,7 +17,7 @@
 
 .header__navbar {
     display: flex;
-    justify-content:end;
+    justify-content: end;
 }
 
 .navbar__link {
@@ -41,7 +39,7 @@
 .main {
     background-image: url(img/main_background.jpg);
     background-size: cover;
-    height: 970px;
+    height: 1000px;
 }
 
 .services__title {
@@ -62,4 +60,43 @@
     border: 1px solid white;
     max-width: 17%;
     overflow: hidden;
+    margin: 230px 0 0 0;
+}
+
+.services__types {
+    list-style: none;
+    padding: 1%;
+    background-color:  rgba(0,0,0, 0.7);
+}
+
+.types__title {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.types__description {
+    text-align: left;
+}
+
+.services-price {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.types__link {
+    text-align: center;
+    border: 1px solid beige;
+    border-radius: 30px;
+}
+
+.types__link:hover {
+    background-color: grey;
+}
+
+.types__link a{
+    text-decoration: none;
+    color: white;
 }
