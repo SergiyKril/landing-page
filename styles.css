@@ -13,7 +13,7 @@
 .header__content {
     background-image: url(img/header_background.jpg);
     background-size: cover;
-    height: 1200px;
+    height: 970px;
 
 }
 
@@ -25,14 +25,15 @@
 .navbar__link {
     text-decoration: none;
     color: white;
-    padding: 0 20px;
-    font-size: 24px;
+    padding: 30px 50px 0 0;
+    font-size: 28px;
+    letter-spacing: 2px;
 }
 
 .header__title {
     display: flex;
     justify-content: center;
     color: beige;
-    padding: 420px 0;
-    font-size: 250px;
+    padding: 230px 0;
+    font-size: 290px;
 }
