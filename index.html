@@ -42,30 +42,31 @@
                 </div>
     </main>
     <footer class="footer">
-        <h2 class="footer__header">Find us</h2>
-        <div class="footer__work-hours">
-            <p class="work-hours__title">Hours</p>
-            <ul class="title__days_and_time">
-                <li class="days_and_time__working-days">Monday-Saturday | 8a.m - 8 p.m</li>
-                <li class="days_and_time__weekend-days">Sunday | Weekend </li>
-            </ul>
+        <div class="footer__content">
+            <h2 class="footer__header">Find us</h2>
+                <div class="footer__work-hours">
+                    <p class="work-hours__title">Hours:</p>
+                    <ul class="title__days_and_time">
+                        <li class="days_and_time__working-days">Monday-Saturday | 8a.m - 8 p.m</li>
+                        <li class="days_and_time__weekend-days">Sunday | Weekend</li>
+                    </ul>
+                </div>
+                <div class="address">
+                    <p class="address__title">Adress:</p>
+                    <p class="address__location">Ukraine, City, Street, Building,</p>
+                </div>
+                <div class="contact" id="contact">
+                    <p class="contact__title">Phone number:</p>
+                    <p class="contact__number">+3800000000000</p>
+                </div>
         </div>
-        <div class="address">
-            <p class="address__title">Adress</p>
-            <p class="address__location">Ukraine, City, Street, Building,</p>
-        </div>
-        <div class="contact" id="contact">
-            <p class="contact__title">Phone number</p>
-            <p class="contact__number">+3800000000000</p>
-        </div>
-        <form>
+        <form class="form">
             <div class="appointment" id="appointment">
                 <input class="appointment__name" type="text" placeholder="Put your Name" required>
                 <input class="appointment__lastname" type="text" placeholder="Put your Last Name" required>
-                <input class="appointment__phone-numer" type="tel" minlength="9" maxlength="13"
-                    placeholder="Phone number" required>
+                <input class="appointment__phone-numer" type="tel" minlength="9" maxlength="13" placeholder="Phone number" required>
                 <button class="appointment__button">Set an appointment</button>
-                <span class="appointment__description">After submitting the form we will call you back and set an appointment</span>
+                <span class="appointment__description">*After submitting the form we will call you back and set an appointment</span>
             </div>
         </form>
     </footer>

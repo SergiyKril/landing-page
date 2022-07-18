@@ -6,7 +6,6 @@
     font-family: 'Cormorant', serif;
 }
 
-.header {}
 
 .header__content {
     background-image: url(img/header_background.jpg);
@@ -42,7 +41,7 @@
     height: 1000px;
 }
 
-.services__title {
+.services__title, .footer__header {
     color: white;
     display: flex;
     justify-content: center;
@@ -100,3 +99,82 @@
     text-decoration: none;
     color: white;
 }
+
+.footer__content {
+    background-image: url(img/footer_background.jpg);
+    height: 500px;
+}
+
+.footer__work-hours, .address, .contact{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.title__days_and_time li{
+    list-style-type: none;
+}
+
+.address__title {
+    padding-right: 43px;
+}
+
+.contact__title {
+    padding-right: 84px;
+}
+
+.form {
+    background-image: url(img/appointment_background.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appointment {
+    background-color: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    height: 350px;
+    padding: 20px;
+    width: 400px;
+    color: white;
+}
+
+.appointment__name, .appointment__lastname, .appointment__phone-numer {
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 5px;
+}
+
+.appointment__button {
+    width: 350px;
+    margin: 40px 0 15px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    text-align: center;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.appointment__button:hover {
+    background-color: grey;
+}
+
+.appointment__description {
+    font-style: italic;
+}
+
+
+  
