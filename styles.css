@@ -41,7 +41,7 @@
     height: 1000px;
 }
 
-.services__title, .footer__header {
+.services__title, .footer__header{
     color: white;
     display: flex;
     justify-content: center;
@@ -133,10 +133,16 @@
     align-items: center;
 }
 
+.appointment__header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
 .appointment {
     background-color: rgba(0, 0, 0, 0.7);
     box-sizing: border-box;
-    height: 350px;
+    height: 370px;
     padding: 20px;
     width: 400px;
     color: white;
